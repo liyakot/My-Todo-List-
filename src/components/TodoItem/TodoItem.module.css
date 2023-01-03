@@ -35,6 +35,7 @@
     margin-right: .6rem;
     transform: scale(1);
     transition: .2s;
+    color: var(--text-dark);
 }
 
 .button:hover, .button:active, .button:focus {
