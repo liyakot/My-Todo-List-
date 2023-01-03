@@ -4,7 +4,7 @@
 </h2>
 
 <h3 align="center">
-    <a href="https://netflix-redesignnn.netlify.app/" target="_blank">Life Demo</a>
+    <a href="https://my-todo-listtt.netlify.app/" target="_blank">Life Demo</a>
 </h3>
 
 ### Description
@@ -12,7 +12,7 @@ ___
 My Todo List is a task management React app to help you stay organized and manage your day-to-day. 
 
 The project was created using React-Redux. 
-<p><img src="https://img.shields.io/github/languages/top/liyakot/Netflix-redesign?color=red"></p>
+<p><img src="https://img.shields.io/github/languages/top/liyakot/My-Todo-List-?color=green"></p>
 
 ### Features
 ___
