@@ -1,0 +1,36 @@
+@import '../../_variables.css';
+
+.display_todos {
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.button {
+    padding: .5rem .8rem .5rem .6rem;
+    margin: 0 .5rem;
+    border-radius: 20px;
+    font-style: italic;
+    font-size: 1rem;
+    border: var(--main-dark) 1px solid;
+    transition: .3s;
+    background-color: var(--background-light);
+}
+
+.button:hover, .button:active, .button:focus {
+    background-color: var(--main-dark);
+    color: white;
+}
+
+.list_todos {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}

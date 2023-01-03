@@ -1,0 +1,48 @@
+@import '../../_variables.css';
+
+.card {
+    width: 25rem;
+    max-width: 90vw;
+    height: 8rem;
+    background-color: var(--card-completed);
+    border-radius: 10px;
+    padding: .5rem;
+    margin: .8rem;
+}
+
+.active {
+    background-color: var(--card-active);
+}
+
+.card>textarea {
+    width: 90%;
+    height: 70%;
+    font-size: 1rem;
+    border: none;
+    max-width: 300px;
+    background-color: inherit;
+}
+
+.buttons {
+    margin-top: .5rem;
+    display: flex;
+    justify-content: end;
+}
+
+.button {
+    background-color: inherit;
+    font-size: 1.3rem;
+    margin-right: .6rem;
+    transform: scale(1);
+    transition: .2s;
+}
+
+.button:hover, .button:active, .button:focus {
+    transform: scale(1.2);
+}
+
+@media screen and (min-width: 576px) {
+    .card {
+        width: 15rem;
+    }
+}
